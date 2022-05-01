@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Page</title>
+    <meta name="description" content="This is a portfolio page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <script src="js/JQuery.js"></script>
+    <script src="js/script.js" async defer></script>
+    <script src="https://kit.fontawesome.com/63037a78cc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navItem navActive" id="navItem1">Home</div>
+      <div class="navItem" id="navItem2">About Me</div>
+      <div class="navItem" id="navItem3">Projects</div>
+      <div class="navItem" id="navItem4">Resume</div>
+    </nav>
+    <div id="container">
+      <main>
+        <div id="topBlock">
+          <h1 id="fullName">Riley Halbert</h1>
+        </div>
+        <div class = "mainContent" id="section2">
+          <h1>About Me</h1>
+          <p class="sectionDescription">I am a student at the University of North Carolina Charlotte, and I will be becoming a senior as of January 2022, and graduating that December. I'm majoring in Computer Science with a concentration in Web and App Dev, though I think I would enjoy a concentration in software development as equally much. <span class="highlight">I am currently looking for an internship position for the Summer of 2022</span>.</p>
+        </div>
+        <div class = "mainContent" id="section3">
+          <h1>Projects</h1>
+          <p class="sectionDescription">I have created many small programming projects using C++, Python, Java, and JS that do various things such as webscraping, using API's to track stock information, basic particle physics using OOP, and a few more. For my next project I am going to use what I have learned, and also be learning along the way, to create a service that requires the use of databases, software, and modular website functionality most likely going to be built using React, to provide maximum flexibility and ease of use to potential users.</p>
+          <ul class="gridContainer">
+            <li class="projectDescription" id="descriptionOne">
+              <h2 class="projectTitle">Photography Website</h2>
+              <p>This was the final project for my Web App Design course. It uses a gallery plugin called simpleLightBox along with the help of css grid to display images taken by a photographer friend of mine. This website is fully responsive for any screen size.</p>
+            </li>
+            <li>
+              <a href="/photography.html" class="pictureLink">
+                <img src="pictures/photographySite.png" alt="Picture of a photography portfolio website" class="gridItem projectPicture" id="pictureOne">
+                <i class="fas fa-external-link-alt fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://xd.adobe.com/view/762725ab-8964-4fc1-8c4b-cd8f887e9192-2374/" target="_blank" class="pictureLink">
+                <img src="pictures/bookApp.png" alt="Adobe XD prototype picture" class="gridItem projectPicture" id="pictureTwo">
+                <i class="fas fa-external-link-alt fa-2x"></i>
+              </a>
+            </li>
+            <li class="projectDescription" id="descriptionTwo">
+              <h2 class="projectTitle">Mobile App. Design</h2>
+              <p>For this school project I worked in a team of four to create a design for a pseudo mobile application. We then conducted surveys, and focus groups to refine our initial design prototype. I created the first rendition of our prototype using AdobeXD shortly after we came up with our app idea, which you can click the picture to view.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mainContent" id="section4">
+          <h1>Contact Me!</h1>
+          <p>For any inquiries you can email me at <a href="mailto:halbertriley@outlook.com" class="highlight">halbertriley@outlook.com</a></p>
+        </div>
+      </main>
+      <footer>
+        <div id="homeButtonContainer" tabindex="0">
+          <i class="fas fa-arrow-up fa-3x" id="homeButton"></i>
+        </div>
+        <p>Other links</p>
+        <div id="links">
+          <a href="https://www.linkedin.com/in/halbertriley/" target="_blank" id="linkedin"><i class="fab fa-linkedin fa-3x"></i></a>
+          <a href="mailto:halbertriley@outlook.com" id="mail"><i class="fas fa-envelope fa-3x"></i></a>
+          <a href="https://github.com/RileyHal" target="_blank" id="github"><i class="fab fa-github-square fa-3x"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
