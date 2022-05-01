@@ -1,5 +1,5 @@
 To compile the Node.js server,
-  1. Install Node
+  1. Install Node onto your pc
   2. Enter the portfolio directory
   3. install npm (npm i)
   4. initiate the program (node app)
